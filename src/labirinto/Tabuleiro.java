@@ -52,7 +52,7 @@ public class Tabuleiro {
        tabuleiro[7][6] = 1;
        tabuleiro[8][6] = 1;
  
- 
+        System.err.println("teste");
     }
     
     public void mostraTabuleiro(int[][] tabuleiro) {
