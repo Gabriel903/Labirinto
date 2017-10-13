@@ -14,16 +14,17 @@ public class Tabuleiro {
     int obstaculos[][] = new int[3][1];
     
 
-    public static void inicializaTabuleiro(int[][] tabuleiro) {
+    public static void inicializarTabuleiro(int[][] tabuleiro) {
         for (int linha = 0; linha < 15; linha++) {
             for (int coluna = 0; coluna < 15; coluna++) {
-                tabuleiro[linha][coluna] = -1;
+
             }
         }
     }
+
  
     public void inicializaObstaculos(int[][] tabuleiro, int obstaculos[][]) {
-                // lembrando que ele anda -1 sembres
+
        tabuleiro[1][3] = 1;
        tabuleiro[2][3] = 1;
        tabuleiro[3][3] = 1;
@@ -51,8 +52,6 @@ public class Tabuleiro {
        tabuleiro[6][6] = 1;
        tabuleiro[7][6] = 1;
        tabuleiro[8][6] = 1;
- 
-        System.err.println("teste");
     }
     
     public void mostraTabuleiro(int[][] tabuleiro) {
@@ -83,7 +82,6 @@ public class Tabuleiro {
            
         }
     }
-
 }
 
   /*   Random sorteio = new Random();
